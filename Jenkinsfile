@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        IMAGEN = "ezequiellemos/django_tutorial_ic" // Cambia esto por el nombre de tu imagen en Docker Hub.
+        IMAGEN = "ezequiellemos/django_tutorial" // Cambia esto por el nombre de tu imagen en Docker Hub.
         LOGIN = 'USER_DOCKERHUB' // Debe coincidir con el ID de las credenciales en Jenkins.
     }
     agent any
