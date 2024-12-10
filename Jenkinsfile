@@ -25,7 +25,7 @@ pipeline {
                 }
                 stage('Ejecutar_pruebas') {
                     steps {
-                        sh 'cd django_tutorial && python manage.py test --settings=django_tutorial.desarollo'
+                        sh 'python manage.py test --settings=django_tutorial.desarollo'
                     }
                 }
             }
